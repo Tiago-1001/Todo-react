@@ -1,0 +1,35 @@
+.container {
+  margin: auto;
+  max-width: 700px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  -webkit-box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=Todo.css.map */
